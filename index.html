@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Price</title>
+  </head>
+  <body>
+
+    <div class="pricing-and-switch">
+      <h1>Our Pricing</h1>
+
+      <div class="toggle-switch">
+        <span class="toggle-label annually">Annually</span>
+        <input type="checkbox" id="pricing-toggle" onclick="switchPricing()">
+        <label for="pricing-toggle" class="slider"></label>
+        <span class="toggle-label monthly">Monthly</span>
+      </div>
+    </div>
+  
+
+    <div class="pricing-container">
+
+    
+      <div class="pricing-card">
+        <h2>Basic</h2>
+        <div class="price"><span id="basic-price">$19.99</span></div>
+        <ul>
+          <li>500 GB Storage</li>
+          <li>2 Users Allowed</li>
+          <li>Send up to 3 GB</li>
+        </ul>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+
+      <div class="pricing-card">
+        <h2>Professional</h2>
+        <div class="price"><span id="professional-price">$24.99</span></div>
+        <ul>
+          <li>1 TB Storage</li>
+          <li>5 Users Allowed</li>
+          <li>Send up to 10 GB</li>
+        </ul>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+
+      <div class="pricing-card">
+        <h2>Master</h2>
+        <div class="price"><span id="master-price">$39.99</span></div>
+        <ul>
+          <li>2 TB Storage</li>
+          <li>10 Users Allowed</li>
+          <li>Send up to 20 GB</li>
+        </ul>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+    </div>
+  </body>
+</html>
