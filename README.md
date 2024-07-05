@@ -11,7 +11,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 ### Links
 
 - Solution URL: [https://github.com/nj93777/pricing-component-with-toggle-master]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://nj93777.github.io/pricing-component-with-toggle-master/]
 ### Built with
 
 - Semantic HTML5 markup
