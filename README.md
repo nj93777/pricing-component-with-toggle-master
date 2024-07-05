@@ -12,10 +12,11 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 - Solution URL: [https://github.com/nj93777/pricing-component-with-toggle-master]
 - Live Site URL: [https://nj93777.github.io/pricing-component-with-toggle-master/]
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile first
+- Mobile first workflow
 
