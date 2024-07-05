@@ -22,7 +22,7 @@ body {
   background-size: 50%;
 }
 
-.pricing-and-switch {
+header.pricing-and-switch {
   margin-bottom: 10%;
 }
 
@@ -41,8 +41,6 @@ h1 {
   position: relative;
   color: rgb(196, 194, 194);
 }
-
-
 
 .toggle-switch input[type="checkbox"] {
   display: none;
@@ -91,7 +89,7 @@ input:checked + .slider:before {
   margin-left: 10px;
 }
 
-.pricing-container {
+main.pricing-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +97,7 @@ input:checked + .slider:before {
   width: 100%;
 }
 
-.pricing-card {
+article.pricing-card {
   background: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -111,7 +109,7 @@ input:checked + .slider:before {
   text-align: center;
 }
 
-.pricing-card h2 {
+article.pricing-card h2 {
   color: #757994;
   margin-bottom: 10px;
 }
@@ -122,19 +120,19 @@ input:checked + .slider:before {
   margin-bottom: 10px;
 }
 
-.pricing-card ul {
+article.pricing-card ul {
   list-style: none;
   padding: 0;
   color: #4a4a4a;
 }
 
-.pricing-card ul li {
+article.pricing-card ul li {
   border-top: 1px solid #ddd;
   margin: 10px 0;
   padding: 10px 0;
 }
 
-.pricing-card ul li:last-child {
+article.pricing-card ul li:last-child {
   border-bottom: 1px solid #ddd;
 }
 
@@ -153,17 +151,17 @@ input:checked + .slider:before {
 
 /*active buttons*/
 
-.pricing-card.active {
+article.pricing-card.active {
   background: linear-gradient(to right, #9c9ff0, #6a6ef0);
 }
 
-.pricing-card.active h2,
-.pricing-card.active span,
-.pricing-card.active ul li {
+article.pricing-card.active h2,
+article.pricing-card.active span,
+article.pricing-card.active ul li {
   color: white;
 }
 
-.pricing-card.active .learn-more {
+article.pricing-card.active .learn-more {
   background: white;
   color: #6a6ef0;
 }
@@ -178,7 +176,7 @@ input:checked + .slider:before {
     background-size: 40%, 40%;
   }
 
-  .pricing-and-switch {
+  header.pricing-and-switch {
     margin-bottom: 0%;
   }
   
@@ -189,25 +187,25 @@ input:checked + .slider:before {
     margin-bottom: 0%;
   }
 
-  .pricing-container {
+  main.pricing-container {
     display: flex;
     flex-direction: row;
     position: relative;
   }
 
-  .pricing-card {
+  article.pricing-card {
     transition: transform 0.3s ease, z-index 0.3s ease;
     flex: 1;
     margin: 0 10px;
   }
 
-  .pricing-card.active {
+  article.pricing-card.active {
     z-index: 1;
     transform: scale(1.1);
     position: relative;
   }
 
-  .pricing-card:not(.active) {
+  article.pricing-card:not(.active) {
     z-index: 0;
   }
 }
